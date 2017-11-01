@@ -1,0 +1,487 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.style-arrow-next{
+	width: 33px;
+	height: 29px;
+	margin-top: 25px;
+}
+.panel-style{
+	height: 80px;
+	width: 100%;
+}
+.photo-menu-image{
+	margin-top: 31px;
+	width: 25px;
+	height: 18px;
+}
+.photo-book-image{
+	width: 162px;
+	height: 19px;
+	margin-top: 31px;
+}
+.lcp-pull-left{
+	float: left;
+
+}
+.style-main-panel{
+	position: relative;
+	margin: 0 auto;
+	width: 1220px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.text-style-number{
+	border-bottom: 1px dotted #000;
+	font-size: 16px;
+	font-family: PF Agora Sans Pro;
+}
+.style-number-phone{
+	background-color: #ffd200ff;
+	border-radius: 10px;
+	width: 211px;
+	height: 37px;
+	line-height: 2;
+	text-align: center;
+	margin-top: 21px;
+}
+.a-style-arrow{
+	text-decoration: none;
+	color: #000;
+}
+.style-next{
+	margin: 40px 27px 114px 398px;
+	width: 142px;
+}
+img.style-arrow {
+	margin-bottom: 2px;
+}
+.container-style{
+	position: relative;
+	margin: 0 auto;
+	width: 1120px;
+}
+div.container-testimonial{
+	width: 1120px;
+	margin: 0 auto;
+	position: relative;
+}
+h2.section-title {
+	color: #000000ff;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 60px;
+	font-family: pfagorasanspro-xthin;
+	text-transform: uppercase;
+}
+
+p.textJohn_1 {
+	font-size: 14px;
+
+}
+p.textJohn_2 {
+	font-size: 14px;
+
+	margin-top: 5px;
+}
+.photo-book-top-div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+@font-face {
+	font-family: pfagorasanspro-xthin;
+	src: url(../../fonts/pfagorasanspro-xthin.ttf);
+}
+@font-face {
+	font-family: pfagorasanspro-thin;
+	src: url(../../fonts/pfagorasanspro-thin.ttf);
+}
+h1.hero-text-style{
+	margin-top: 60px;
+	font-size: 60px ;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-transform: uppercase;
+	font-family: "pfagorasanspro-xthin";
+}
+p.text-style-top{
+
+	font-size: 24px;
+    font-family: "PF Agora Sans Pro";
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+a.photo-book  {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	line-height: 3;
+	padding: 2px;
+	background-color: #d41d32ff;
+	border-radius: 10px;
+	width: 380px;
+	height: 80px;
+	text-align: center;
+	font-size: 26px;
+    font-family: "PF Agora Sans Pro-Thin";
+	margin:85px 0 77px 0;
+}
+p.yellow-circle-text {
+	text-align: center;
+	padding: 23px 0px 90px 20px;
+	font-size: 24px;
+	line-height: 1;
+	font-family: "PF Agora Sans Pro";
+}
+.yellow-circles{
+	background-color: #ffffffff;
+	border-radius: 50%;
+	width:142px;
+	height: 142px;
+	border: 3px solid #f7d400ff;
+    margin: 52px 0 0 0;
+	position: relative;
+	z-index: 1;
+}
+
+.img-in-circle {
+	margin: 30% 30% 30% 30%;
+}
+.dotted-line{
+	border-top: 5px solid  #fcd40aff;
+    border-style: dashed;
+	width: 899px;
+	margin-top: 122px;
+	position: absolute;
+}
+.container-circle{
+	width: 150px;
+}
+.container-circle-line{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+	margin: 0 auto;
+	width: 1037px;
+}
+.button-top-div{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 15px;
+}
+a.button-top{
+	display: inline-block;
+	text-decoration: none;
+	line-height: 2.7;
+	background-color: transparent;
+	border-radius: 10px;
+	border: 1px solid #000;
+	width: 377px;
+	height: 66px;
+	text-align: center;
+	font-size: 26px;
+	font-family: pfagorasanspro-thin;
+	margin-top: 60px;
+	color: #000;
+	flex-direction: row;
+	justify-content: center;
+}
+
+a.button-midline  {
+	display: inline-block;
+	text-decoration: none;
+	line-height: 2;
+	padding-left: 30px;
+	background-color: transparent;
+	border-radius: 10px;
+	border: 1px solid #000;
+	width: 377px;
+	height: 66px;
+    margin: 115px 69px 54px 81px;
+	font-size: 26px;
+	font-family: Arial, Verdana, sans-serif;
+    color: #000;
+}
+h3.style-text-book {
+    font-size: 36px;
+	display: inline;
+	padding: 175px;
+	background-color: #f7d400ff;
+}
+h5.style-text-h5 {
+	font-size: 36px;
+	padding-top: 41px;
+}
+div.style-book {
+	display: inline;
+	padding: 175px;
+}
+.image-wrap{
+	width: 300px;
+}
+.text-under-image{
+	margin-top:20px;
+	font-family:  PF Agora Sans Pro;
+	font-size:24px;
+	text-align: center;
+
+}
+.text-under-text{
+	font-size:16px;
+	text-align: center;
+	margin-top:30px;
+	font-family:  PF Agora Sans Pro;
+}
+.my-style {
+    padding: 80px 0px 20px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.my-style-img{
+	width:270px;
+	height:270px;
+}
+.my-style-back {
+	text-align: center;
+	background-color: #f2f0e6ff;
+}
+.hero-image {
+	height: 547px;
+	background: url("../img/main-banner-hdpi.png") no-repeat bottom;
+	background-size: cover;
+	padding: 100px;
+}
+
+div.book-image {
+	background: url("../img/banner-2-hdpi.png") no-repeat bottom;
+	background-size: cover;
+}
+.pull-left {
+	float: left;
+	padding-right: 10px;
+	margin-top: 30px;
+}
+.lcp-pull-left-img{
+	display: flex;
+    padding: 21px 17px 3px 27px;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.styleNameMen{
+	margin-top: 110px;
+	margin-bottom: 75px;
+}
+.text-style-men {
+	width: 527px;
+	height: 157px;
+
+}
+.tps-wrap{
+	width: 300px;
+}
+p.tps{
+	background-color: #f7d400ff;
+	text-decoration: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top:92px;
+	font-family:  Arial, sans-serif;
+	font-size:36px;
+	text-align: center;
+	line-height: 2;
+}
+.TpsDiv{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.tps-text-style{
+	background-color:#f6f0e5ff;
+    margin-top: 5px;
+	height:238px;
+	font-size:16px;
+	text-decoration: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding: 20px;
+}
+span.tps-text-style-red {
+	color: red;
+	font-size:16px;
+}
+.photo-book-bottom{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	line-height: 3;
+	padding: 2px;
+	background-color: #d41d32ff;
+	border-radius: 10px;
+	width: 380px;
+	height: 80px;
+	text-align: center;
+	font-size: 26px;
+	font-family: pfagorasanspro-thin;
+	margin: 75px 0px 119px 0px;
+}
+.photo-book-bottom-div{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.lcp-div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.lcp-wrap{
+	width: 300px;
+    margin: 83px 0 114px 0;
+}
+.lcp-title{
+	background-color: #f7d400ff;
+	text-decoration: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top:30px;
+	font-family:  Arial, sans-serif;
+	font-size:36px;
+	text-align: center;
+	line-height: 2;
+}
+.lcp-title-bottom{
+	background-color: #f7d400ff;
+	text-decoration: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family: pfagorasanspro-thin;
+	font-size:22px;
+	text-align: center;
+	line-height: 2;
+}
+.lcp-text-container{
+	border: 3px solid #f7d400ff;
+	width: 294px;
+	height: 242px;
+}
+.lcp-text {
+	display: flex;
+	padding-top: 24px;
+	font-size: 18px;
+	flex-direction: column;
+	justify-content: space-around;
+	font-family: "PF Agora Sans Pro";
+}
+.footer-style{
+	background-color: #ffd200ff;
+}
+.wrap-style{
+
+	height: 338px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.container{
+	margin-top: 51px;
+	width: 152px;
+	border-top: 1px solid #000;
+
+}
+.cont-text-footer{
+	margin: 30px 86px 0px 0px;
+}
+.fb-vk-inst {
+	margin-top: 31px;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.logo-style{
+	height: 109px;
+	width: 87px;
+	border: 1px solid #000;
+	background-color: transparent;
+	border-radius: 10px;
+	margin-top: 52px;
+}
+.logo-text{
+	font-family: PF Agora Sans Pro;
+	margin: 14px 14px 14px 14px;
+	font-size: 11px;
+
+}
+.logo-img{
+	padding-left: 14px;
+}
+.logo-text-style{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #ffd200ff;
+	height: 60px;
+
+}
