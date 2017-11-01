@@ -88,7 +88,7 @@ body {
 .text-style-number{
 	border-bottom: 1px dotted #000;
 	font-size: 16px;
-	font-family: PF Agora Sans Pro;
+	font-family: pfagorasanspro-thin;
 }
 .style-number-phone{
 	background-color: #ffd200ff;
@@ -131,11 +131,20 @@ h2.section-title {
 
 p.textJohn_1 {
 	font-size: 14px;
-
+    font-family: pfagorasanspro-thin;
+}
+.text-style-John{
+	font-size: 30px;
+	font-family: pfagorasanspro-thin;
+}
+.text-style-commit{
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: pfagorasanspro-thin;
 }
 p.textJohn_2 {
 	font-size: 14px;
-
+   font-family: pfagorasanspro-thin;
 	margin-top: 5px;
 }
 .photo-book-top-div{
@@ -250,8 +259,7 @@ a.button-top{
 a.button-midline  {
 	display: inline-block;
 	text-decoration: none;
-	line-height: 2;
-	padding-left: 30px;
+	line-height: 2.5;
 	background-color: transparent;
 	border-radius: 10px;
 	border: 1px solid #000;
@@ -259,8 +267,9 @@ a.button-midline  {
 	height: 66px;
     margin: 115px 69px 54px 81px;
 	font-size: 26px;
-	font-family: Arial, Verdana, sans-serif;
+	font-family: pfagorasanspro-thin;
     color: #000;
+	text-align: center;
 }
 h3.style-text-book {
     font-size: 36px;
@@ -271,6 +280,8 @@ h3.style-text-book {
 h5.style-text-h5 {
 	font-size: 36px;
 	padding-top: 41px;
+	text-transform: uppercase;
+	font-family: pfagorasanspro-xthin;
 }
 div.style-book {
 	display: inline;
@@ -329,7 +340,7 @@ div.book-image {
 	justify-content: space-between;
 }
 .styleNameMen{
-	margin-top: 110px;
+	margin-top: 100px;
 	margin-bottom: 75px;
 }
 .text-style-men {
@@ -346,10 +357,11 @@ p.tps{
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	margin-top:92px;
-	font-family:  Arial, sans-serif;
+	font-family:  pfagorasanspro-thin;
 	font-size:36px;
 	text-align: center;
 	line-height: 2;
+	text-transform: uppercase;
 }
 .TpsDiv{
 	display: flex;
@@ -360,13 +372,14 @@ p.tps{
 	background-color:#f6f0e5ff;
     margin-top: 5px;
 	height:238px;
-	font-size:16px;
-	text-decoration: none;
+	font-size:18px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	padding: 20px;
+	font-family: pfagorasanspro-thin;
 }
 span.tps-text-style-red {
+	font-weight: bold;
 	color: red;
 	font-size:16px;
 }
@@ -405,7 +418,7 @@ span.tps-text-style-red {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	margin-top:30px;
-	font-family:  Arial, sans-serif;
+	font-family:  pfagorasanspro-thin;
 	font-size:36px;
 	text-align: center;
 	line-height: 2;
@@ -451,6 +464,11 @@ span.tps-text-style-red {
 }
 .cont-text-footer{
 	margin: 30px 86px 0px 0px;
+}
+.text-footer-style{
+	font-family: pfagorasanspro-thin;
+	font-size: 18px;
+	color: #000;
 }
 .fb-vk-inst {
 	margin-top: 31px;
