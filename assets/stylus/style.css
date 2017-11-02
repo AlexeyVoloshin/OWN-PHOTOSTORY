@@ -52,7 +52,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 body {
 	font: 12px/18px Arial, sans-serif;
-	height: 100%;
+	/*height: 100%;
+	margin: 0;*/
 }
 .style-arrow-next{
 	width: 33px;
@@ -69,7 +70,8 @@ body {
 	height: 18px;
 }
 .photo-book-image{
-	width: 162px;
+	max-width: 162px;
+	width: 100%;
 	height: 19px;
 	margin-top: 31px;
 }
@@ -80,7 +82,8 @@ body {
 .style-main-panel{
 	position: relative;
 	margin: 0 auto;
-	width: 1220px;
+	max-width: 1220px;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -93,7 +96,8 @@ body {
 .style-number-phone{
 	background-color: #ffd200ff;
 	border-radius: 10px;
-	width: 211px;
+	max-width: 211px;
+	width: 100%;
 	height: 37px;
 	line-height: 2;
 	text-align: center;
@@ -121,6 +125,7 @@ div.container-testimonial{
 	position: relative;
 }
 h2.section-title {
+	line-height: 1;
 	color: #000000ff;
 	font-size: 60px;
 	text-align: center;
@@ -128,7 +133,10 @@ h2.section-title {
 	font-family: pfagorasanspro-xthin;
 	text-transform: uppercase;
 }
-
+.section-title:first-letter{
+	font-family: pfagorasanspro-xthin;
+	font-size: 130%;
+}
 p.textJohn_1 {
 	font-size: 14px;
     font-family: pfagorasanspro-thin;
@@ -148,9 +156,8 @@ p.textJohn_2 {
 	margin-top: 5px;
 }
 .photo-book-top-div{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+
+	margin-top: 60px;
 }
 @font-face {
 	font-family: pfagorasanspro-xthin;
@@ -160,19 +167,21 @@ p.textJohn_2 {
 	font-family: pfagorasanspro-thin;
 	src: url(../../fonts/pfagorasanspro-thin.ttf);
 }
-h1.hero-text-style{
+
+.hero-text-style{
 	margin-top: 60px;
 	font-size: 60px ;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
 	text-transform: uppercase;
-	font-family: "pfagorasanspro-xthin";
+	line-height: 1;
+	font-family: 'pfagorasanspro-xthin';
+}
+.hero-text-style:first-letter{
+	font-family: 'pfagorasanspro-xthin';
+	font-size: 130%;
 }
 p.text-style-top{
-
 	font-size: 24px;
-    font-family: "PF Agora Sans Pro";
+    font-family: PF Agora Sans Pro;
 	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
@@ -215,8 +224,7 @@ p.yellow-circle-text {
 	margin: 30% 30% 30% 30%;
 }
 .dotted-line{
-	border-top: 5px solid  #fcd40aff;
-    border-style: dashed;
+	border-top: 5px dashed  #fcd40aff;
 	width: 899px;
 	margin-top: 122px;
 	position: absolute;
@@ -230,7 +238,8 @@ p.yellow-circle-text {
 	justify-content: space-around;
 	position: relative;
 	margin: 0 auto;
-	width: 1037px;
+	max-width: 1037px;
+	width: 100%;
 }
 .button-top-div{
 	display: flex;
@@ -318,10 +327,12 @@ div.style-book {
 	background-color: #f2f0e6ff;
 }
 .hero-image {
+	display: flex;
+	justify-content: center;
 	height: 547px;
 	background: url("../img/main-banner-hdpi.png") no-repeat bottom;
 	background-size: cover;
-	padding: 100px;
+	padding: 20px;
 }
 
 div.book-image {
@@ -413,16 +424,30 @@ span.tps-text-style-red {
     margin: 83px 0 114px 0;
 }
 .lcp-title{
-	background-color: #f7d400ff;
 	text-decoration: none;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
 	margin-top:30px;
 	font-family:  pfagorasanspro-thin;
 	font-size:36px;
 	text-align: center;
 	line-height: 2;
+	text-transform: uppercase;
 }
+.lcp-title:first-letter{
+	font-family: pfagorasanspro-thin;
+	font-size: 135%;
+}
+.letter{
+	font-family:  pfagorasanspro-thin;
+	font-size:135%;
+	position: relative;
+}
+
+.lcp-title-container{
+	background-color: #f7d400ff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
 .lcp-title-bottom{
 	background-color: #f7d400ff;
 	text-decoration: none;
@@ -448,6 +473,8 @@ span.tps-text-style-red {
 }
 .footer-style{
 	background-color: #ffd200ff;
+	max-width: 2000px ;
+	width: 100%;
 }
 .wrap-style{
 
@@ -501,5 +528,14 @@ div.logo-style{
 	justify-content: center;
 	background-color: #ffd200ff;
 	height: 60px;
+
+}
+
+
+@media screen and (max-width: 600px){
+	/*.column{*/
+		/*flex-direction: column;*/
+		/*align-items: center;*/
+	/*}*/
 
 }
