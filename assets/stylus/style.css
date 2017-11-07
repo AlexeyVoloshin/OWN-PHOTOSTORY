@@ -91,7 +91,7 @@ body {
 	max-width: 1220px;
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 .text-style-number{
 	border-bottom: 1px dotted #000;
@@ -578,7 +578,7 @@ div.logo-style{
 	}
 	.style-main-panel{
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
 
     div.book-image{
@@ -800,7 +800,7 @@ div.logo-style{
 
 	.style-main-panel{
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
 	.column{
 		flex-direction: column;
@@ -977,7 +977,7 @@ div.logo-style{
 	}
 	.style-main-panel{
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
 	.column{
 		flex-direction: column;
